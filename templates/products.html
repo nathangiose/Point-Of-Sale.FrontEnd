@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styling/products.css">
+    <title>Products</title>
+    <link
+    rel="shortcut icon"
+    type="image/x-icon"
+    href="https://i.postimg.cc/SxH9h89Q/Screenshot-2021-05-16-Nathan-John-Giose.png"
+  />
+  <!-- OLD BOOTSTRAP -->
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+        <nav class="navbar">
+            <ul class="nav-links">
+            <div class="profile"><li class="nav-link">
+                <a href="/templates/products.html">Cart</a>
+              </li>
+
+              <li class="nav-link">
+                <a href="/Index.html">Logout</a>
+              </li>
+            </div>
+            <div class="search-bar">
+              <form onsubmit="event.preventDefault(), searchItem()">
+                <input type="text" id="search-bar" required>
+                <button type="submit">Search</button>
+              </form>
+            </div>
+
+          </ul>
+              
+    </nav> 
+    <div id="product-container"></div>
+
+    <script src="/scripts/product.js"></script>
+</body>
+</html>

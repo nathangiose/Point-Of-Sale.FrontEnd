@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create User</title>
+    <link
+    rel="shortcut icon"
+    type="image/x-icon"
+    href="https://i.postimg.cc/SxH9h89Q/Screenshot-2021-05-16-Nathan-John-Giose.png"
+  />
+   <!-- OLD BOOTSTRAP -->
+   <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+   <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+   <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="/styling/newlog.css">
+</head>
+<body>
+    <div class="container login-container">
+        <div class="row">
+            <div class="col-md-6 login-form-1">
+                <h3>Sign Up</h3>
+       <form class="details">
+            
+        <div class="form-group">
+            <input type="text" id="first_name" name="first_name" placeholder="first name" class="form-control">
+        </div>
+        <div class="form-group">
+            <input type="text" id="last_name" name="last_name" placeholder="last name" class="form-control">
+        </div>
+        <div class="form-group">
+            <input type="text" id="address" name="address" placeholder="address" class="form-control">
+        </div>
+        <div class="form-group">
+            <input type="text" id="email" name="email" placeholder="email address" class="form-control">
+        </div>
+        <div class="form-group">
+            <input type="text" id="username" name="username" placeholder="username" class="form-control">
+        </div>
+        <div class="form-group">
+            <input type="text" id="password" name="password" placeholder="password"class="form-control">
+        </div>
+        <div class="form-group">
+            <input type="submit" class="btn" value="Login"  onclick="event.preventDefault(), user()" class="btn" />
+        </div>
+       </form>
+    </div>
+    <script src="/scripts/registration.js"></script>
+</body>
+</html>

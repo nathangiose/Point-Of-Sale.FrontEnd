@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Online Market</title>
+        <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://i.postimg.cc/SxH9h89Q/Screenshot-2021-05-16-Nathan-John-Giose.png"
+    />
+        <meta name="description" content="This is the description">
+        <link rel="stylesheet" href="/styling/store.css" />
+
+    </head>
+    <body>
+        <header class="main-header">
+            <nav class="main-nav nav">
+                <ul>
+                    <li><a href="/Index">LOGIN PAGE</a></li>
+                    <li><a href="./store.html">STORE</a></li>
+                    <li><button class="modal-button">OPEN</button>
+                    </li>
+                </ul>
+            </nav>
+            <h1 class="band-name band-name-large">Art</h1>
+            <div class="modal-bg">
+                <div class="modal">
+                    <p class="first-name"></p>
+                    <p class="surname"></p>
+                    <p class="address"></p>
+                    <p class="email"></p>
+                    <p class="username"></p>
+                    <p class="password"></p>
+                    <span class="modal-close">X</span>
+                    <button class="delete" onclick="Deleteuser()">DELETE</button>
+                </div>
+            </div>
+        </header>
+        <section class="container content-section">
+            <h2 class="section-header">PICTURES</h2>
+            <div class="shop-items">
+            </div>
+        </section>
+        <section class="container content-section">
+            <h2 class="section-header">CART</h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Amount</strong>
+                <span class="cart-total-price"></span>
+            </div>
+            <button class="btn btn-primary btn-purchase" type="button">BUY</button>
+        </section>
+        <script src="/scripts/store.js"></script>
+    </body>
+</html>
